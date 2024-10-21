@@ -17,7 +17,7 @@ Inside Blocklet Server, there are two main components:
 Blocklet Server: The core platform.
 Blocklet Service: A layer that provides Blocklets with essential features like login, data storage, and message notifications.
 
-You can refer to this diagram for a better understanding:
+Here is a simple architecture diagram (we don't need to go into details right now):
 
 https://team.arcblock.io/comment/docs/c158aee4-accd-42f4-9ced-6a23f28c00e0/en/L0P8cWeYx15c1GB_4Tnk_TFv#a6045171-3e58-4717-84bf-2d08a2684a58
 
@@ -25,9 +25,9 @@ https://team.arcblock.io/comment/docs/c158aee4-accd-42f4-9ced-6a23f28c00e0/en/L0
 
 A complete Blocklet Server has three types of users:
 
-- Platform Provider: The one who runs the Blocklet Server environment and allows others to buy and deploy Blocklets. For example, arcblock.io is a platform provider. Anyone can also set up their own platform using Blocklet Server.
-- Blocklet Owner: These users buy space on the platform to deploy their own Blocklets.
-- Blocklet User: They use the Blocklets provided by the Blocklet Owner (sometimes, the Blocklet Owner and User can be the same person).
+- **Platform Provider**: The one who runs the Blocklet Server environment and allows others to buy and deploy Blocklets. For example, arcblock.io is a platform provider. Anyone can also set up their own platform using Blocklet Server.
+- **Blocklet Owner**: These users buy space on the platform to deploy their own Blocklets (In the future, they will be our company’s main customers).
+- **Blocklet User**: These are the customers of the Blocklet Owners. They use the Blocklets. (Sometimes, the Blocklet Owner and User can be the same person. For example, someone might deploy discuss-kit for personal use.)
 
 There is one more special type of user:
 
